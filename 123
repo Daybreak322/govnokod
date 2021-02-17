@@ -1,4 +1,5 @@
 text = input()
+b=float(38.0)
 if text == 'кашель':
     tip = input()
     if tip == 'влажный':
@@ -7,7 +8,7 @@ if text == 'кашель':
         print('Назначаю вам Отхаркин-2')
 elif text == 'температура':
     lvl = float(input())
-    if float(lvl) >= float(38.0):
+    if float(lvl) >= float(b):
         print('Антижарин-1')
     else:
         print('Антижарин-2')
