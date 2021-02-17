@@ -6,6 +6,7 @@ if text == 'кашель':
     else:
         print('Назначаю вам Отхаркин-2')
 elif text == 'температура':
+    lvl = float(input())
     if float(lvl) >= float(38.0):
         print('Антижарин-1')
     else:
